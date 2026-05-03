@@ -1,4 +1,4 @@
-import { GraduationCap, Languages, BookOpen } from 'lucide-react';
+import { GraduationCap, Languages } from 'lucide-react';
 
 export default function About() {
   return (
