@@ -8,7 +8,7 @@ export default function Hero() {
           Ayşe Reyyan Tunç
         </h1>
         <h2 className="text-xl md:text-2xl text-slate-600 font-medium mt-4">
-          Pharmacy Student | Erasmus+ Internship Candidate
+          Pharmacy Student
         </h2>
         <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
           Highly motivated learner with a collaborative attitude, seeking an Erasmus+ internship opportunity to gain global perspectives and contribute to daily pharmacy operations in an international setting.
@@ -16,7 +16,7 @@ export default function Hero() {
         
         <div className="pt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="/cv.pdf"
+            href="/Ayse_Reyyan_Tunc_CV.pdf"
             download="Ayse_Reyyan_Tunc_CV.pdf"
             className="inline-flex items-center gap-2 bg-medical-primary hover:bg-medical-accent text-white px-8 py-4 rounded-md font-medium transition-colors shadow-sm text-lg"
           >

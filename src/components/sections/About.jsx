@@ -36,7 +36,7 @@ export default function About() {
                 </li>
                 <li className="flex justify-between border-b border-slate-200 pb-2">
                   <span className="text-slate-700 font-medium">English</span>
-                  <span className="text-slate-500">Full Professional Rank</span>
+                  <span className="text-slate-500">Full Professional Proficiency</span>
                 </li>
                 <li className="flex justify-between border-b border-slate-200 pb-2">
                   <span className="text-slate-700 font-medium">German</span>

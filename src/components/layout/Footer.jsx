@@ -26,7 +26,7 @@ export default function Footer() {
       </div>
       
       <div className="max-w-6xl mx-auto px-6 mt-12 pt-8 border-t border-slate-700 text-center text-sm text-slate-500">
-        &copy; {new Date().getFullYear()} Ayşe Reyyan Tunç. Built for Erasmus+ Internship Applications.
+        &copy; {new Date().getFullYear()} Ayşe Reyyan Tunç
       </div>
     </footer>
   );
