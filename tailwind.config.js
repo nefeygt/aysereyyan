@@ -8,10 +8,10 @@ export default {
     extend: {
       colors: {
         medical: {
-          blue: '#e0f2fe',
-          dark: '#0f172a',
-          primary: '#0369a1',
-          accent: '#0284c7'
+          blue: '#f0fdfa', // teal-50
+          dark: '#134e4a', // teal-900
+          primary: '#0d9488', // teal-600
+          accent: '#0f766e' // teal-700
         }
       }
     },

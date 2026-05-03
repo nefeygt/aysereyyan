@@ -30,28 +30,31 @@ export default function Timeline() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section id="experience" className="py-24 bg-transparent">
       <div className="max-w-4xl mx-auto px-6">
-        <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">Experience & Activities</h2>
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-slate-900 mb-4">Experience & Activities</h2>
+          <div className="w-16 h-1.5 bg-medical-primary rounded-full mx-auto"></div>
+        </div>
         
-        <div className="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-200 before:to-transparent">
+        <div className="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-medical-primary/30 before:to-transparent">
           {experiences.map((exp, index) => (
             <div key={index} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
               
-              <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-medical-primary text-slate-500 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+              <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-slate-50 bg-medical-primary text-white shadow-md shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
               </div>
               
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-slate-50 p-6 rounded-xl border border-slate-100 shadow-sm">
+              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-8 rounded-2xl border border-slate-200 shadow-md hover:shadow-xl transition-shadow relative">
                 <div className="flex flex-col mb-4">
-                  <span className="text-medical-primary font-medium text-sm mb-1">{exp.date}</span>
-                  <h3 className="text-xl font-bold text-slate-900">{exp.role}</h3>
-                  <span className="text-slate-600 font-medium">{exp.facility}</span>
+                  <span className="inline-block px-3 py-1 bg-medical-blue text-medical-primary rounded-full font-bold text-xs tracking-wider uppercase mb-3 w-fit">{exp.date}</span>
+                  <h3 className="text-2xl font-bold text-slate-900 mb-1">{exp.role}</h3>
+                  <span className="text-slate-600 font-semibold">{exp.facility}</span>
                 </div>
-                <p className="text-slate-600 mb-4">{exp.description}</p>
-                <ul className="space-y-2">
+                <p className="text-slate-700 font-medium mb-6 italic border-l-2 border-medical-primary pl-4">{exp.description}</p>
+                <ul className="space-y-3">
                   {exp.highlights.map((highlight, i) => (
-                    <li key={i} className="text-sm text-slate-700 flex gap-2">
-                       <span className="text-medical-accent">•</span> {highlight}
+                    <li key={i} className="text-sm text-slate-700 flex gap-3 leading-relaxed">
+                       <span className="text-medical-accent mt-0.5 font-bold">✓</span> {highlight}
                     </li>
                   ))}
                 </ul>
