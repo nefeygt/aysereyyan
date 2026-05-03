@@ -12,3 +12,8 @@
   background-color: #0d9488; /* Tailwind's teal-600 */
   color: #ffffff;
 }
+
+::-moz-selection {
+  background-color: #0d9488;
+  color: #ffffff;
+}
