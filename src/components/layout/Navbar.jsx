@@ -51,7 +51,7 @@ export default function Navbar() {
             Experience
           </button>
           <a 
-            href="/cv.pdf"
+            href="/Ayse_Reyyan_Tunc_CV.pdf"
             download
             className="text-sm font-medium text-teal-600 border border-teal-600 px-4 py-2 rounded-full hover:bg-teal-50 transition-colors"
           >

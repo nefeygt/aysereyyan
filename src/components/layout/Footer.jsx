@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
           <h2 className="text-2xl font-bold text-white mb-2">Ayşe Reyyan Tunç</h2>
-          <p className="text-slate-400">Pharmacy Student & Erasmus+ Candidate</p>
+          <p className="text-slate-400">Pharmacy Student</p>
         </div>
         
         <div className="flex flex-col gap-3 md:items-end mt-8 md:mt-0">

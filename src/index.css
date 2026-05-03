@@ -9,11 +9,11 @@
 }
 
 ::selection {
-  background-color: #0d9488; /* Tailwind's teal-600 */
-  color: #ffffff;
+  background-color: blue; /* Tailwind's teal-600 */
+  color: blue;
 }
 
 ::-moz-selection {
-  background-color: #0d9488;
-  color: #ffffff;
+  background-color: blue;
+  color: blue;
 }
