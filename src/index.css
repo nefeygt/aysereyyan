@@ -7,13 +7,3 @@
     scroll-behavior: smooth;
   }
 }
-
-::selection {
-  background-color: blue; /* Tailwind's teal-600 */
-  color: blue;
-}
-
-::-moz-selection {
-  background-color: blue;
-  color: blue;
-}
